@@ -121,7 +121,7 @@ example usage:
                       
     parser.add_option("-t", "--geotype",
                       dest="geo_type",
-                      help="The type of geometry to use as a container for the converted data (default: ParticleSet).")
+                      help="The type of geometry to use as a container for the converted data. Supported types are ParticleSet, PointSet and LineSet. (default: ParticleSet).")
                       
     parser.add_option("-b", "--binary",
                       action="store_true", dest="binary",
